@@ -37,6 +37,8 @@ def shortest_path(lst):
             lst.insert(i, '-')
     # convery list back into string
     lst = "".join(lst)
+    if lst == "":
+        return -1
     return lst
 
 
